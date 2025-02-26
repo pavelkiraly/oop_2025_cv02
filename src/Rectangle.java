@@ -9,6 +9,9 @@ public class Rectangle {
         final char HORIZONTAL = '\u2500';
         final char VERTICAL = '\u2502';
 
+        if (width < 2 || height < 2) {
+            return;
+        }
 
 
         System.out.print(TOP_LEFT);
